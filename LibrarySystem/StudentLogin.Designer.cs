@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(StudentLogin));
             pictureBox1 = new PictureBox();
             label4 = new Label();
-            textBox1 = new TextBox();
+            txtUserName = new TextBox();
             label5 = new Label();
             textBox2 = new TextBox();
             button1 = new Button();
@@ -58,18 +58,18 @@
             label4.BackColor = Color.Transparent;
             label4.Location = new Point(32, 204);
             label4.Name = "label4";
-            label4.Size = new Size(94, 15);
+            label4.Size = new Size(95, 15);
             label4.TabIndex = 4;
-            label4.Text = "Username/Email";
+            label4.Text = "Student Number";
             // 
-            // textBox1
+            // txtUserName
             // 
-            textBox1.BackColor = Color.Gainsboro;
-            textBox1.Location = new Point(32, 222);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(247, 23);
-            textBox1.TabIndex = 5;
+            txtUserName.BackColor = Color.Gainsboro;
+            txtUserName.Location = new Point(32, 222);
+            txtUserName.Multiline = true;
+            txtUserName.Name = "txtUserName";
+            txtUserName.Size = new Size(247, 23);
+            txtUserName.TabIndex = 5;
             // 
             // label5
             // 
@@ -92,10 +92,10 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.SteelBlue;
+            button1.BackColor = SystemColors.Highlight;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
+            button1.ForeColor = Color.Yellow;
             button1.Location = new Point(113, 402);
             button1.Name = "button1";
             button1.Size = new Size(142, 38);
@@ -152,7 +152,7 @@
             Controls.Add(button1);
             Controls.Add(textBox2);
             Controls.Add(label5);
-            Controls.Add(textBox1);
+            Controls.Add(txtUserName);
             Controls.Add(label4);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
@@ -166,7 +166,7 @@
         #endregion
         private PictureBox pictureBox1;
         private Label label4;
-        private TextBox textBox1;
+        private TextBox txtUserName;
         private Label label5;
         private TextBox textBox2;
         private Button button1;

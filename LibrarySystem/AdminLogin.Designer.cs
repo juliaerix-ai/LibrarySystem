@@ -79,10 +79,10 @@
             // 
             // button1
             // 
-            button1.BackColor = Color.SteelBlue;
+            button1.BackColor = SystemColors.Highlight;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Segoe UI Black", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
+            button1.ForeColor = Color.Yellow;
             button1.Location = new Point(110, 402);
             button1.Name = "button1";
             button1.Size = new Size(142, 38);
@@ -124,9 +124,9 @@
             label4.BackColor = Color.Transparent;
             label4.Location = new Point(29, 202);
             label4.Name = "label4";
-            label4.Size = new Size(94, 15);
+            label4.Size = new Size(36, 15);
             label4.TabIndex = 13;
-            label4.Text = "Username/Email";
+            label4.Text = "Email";
             // 
             // pictureBox1
             // 

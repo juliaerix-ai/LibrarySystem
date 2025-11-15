@@ -33,19 +33,34 @@
             textBox2 = new TextBox();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
+            panel7 = new Panel();
+            label15 = new Label();
+            label14 = new Label();
+            label13 = new Label();
             panel5 = new Panel();
             label8 = new Label();
             label6 = new Label();
             label7 = new Label();
             panel10 = new Panel();
-            panel9 = new Panel();
-            panel8 = new Panel();
+            label25 = new Label();
+            label16 = new Label();
             label12 = new Label();
+            panel9 = new Panel();
+            label24 = new Label();
+            label17 = new Label();
+            label11 = new Label();
+            panel8 = new Panel();
+            label23 = new Label();
+            label19 = new Label();
+            label20 = new Label();
             panel6 = new Panel();
+            label4 = new Label();
             label10 = new Label();
             label9 = new Label();
             panel4 = new Panel();
-            label11 = new Label();
+            label22 = new Label();
+            label21 = new Label();
+            label18 = new Label();
             panel3 = new Panel();
             label3 = new Label();
             label2 = new Label();
@@ -54,31 +69,15 @@
             label5 = new Label();
             button9 = new Button();
             button8 = new Button();
-            button7 = new Button();
             button6 = new Button();
             button5 = new Button();
-            button4 = new Button();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
-            panel7 = new Panel();
-            label4 = new Label();
-            label13 = new Label();
-            label14 = new Label();
-            label15 = new Label();
-            label16 = new Label();
-            label17 = new Label();
-            label18 = new Label();
-            label19 = new Label();
-            label20 = new Label();
-            label21 = new Label();
-            label22 = new Label();
-            label23 = new Label();
-            label24 = new Label();
-            label25 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
+            panel7.SuspendLayout();
             panel5.SuspendLayout();
             panel10.SuspendLayout();
             panel9.SuspendLayout();
@@ -87,7 +86,6 @@
             panel4.SuspendLayout();
             panel3.SuspendLayout();
             panel2.SuspendLayout();
-            panel7.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox2
@@ -136,6 +134,47 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(616, 350);
             panel1.TabIndex = 28;
+            // 
+            // panel7
+            // 
+            panel7.BackColor = Color.FromArgb(192, 255, 255);
+            panel7.Controls.Add(label15);
+            panel7.Controls.Add(label14);
+            panel7.Controls.Add(label13);
+            panel7.Location = new Point(475, 64);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(138, 100);
+            panel7.TabIndex = 38;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label15.Location = new Point(39, 11);
+            label15.Name = "label15";
+            label15.Size = new Size(61, 30);
+            label15.TabIndex = 43;
+            label15.Text = "1288";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label14.Location = new Point(34, 69);
+            label14.Name = "label14";
+            label14.Size = new Size(71, 20);
+            label14.TabIndex = 42;
+            label14.Text = "Students";
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label13.Location = new Point(47, 49);
+            label13.Name = "label13";
+            label13.Size = new Size(53, 20);
+            label13.TabIndex = 41;
+            label13.Text = "No. of";
             // 
             // panel5
             // 
@@ -189,6 +228,36 @@
             panel10.Size = new Size(138, 100);
             panel10.TabIndex = 36;
             // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label25.Location = new Point(39, 14);
+            label25.Name = "label25";
+            label25.Size = new Size(61, 30);
+            label25.TabIndex = 43;
+            label25.Text = "1288";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label16.Location = new Point(28, 70);
+            label16.Name = "label16";
+            label16.Size = new Size(101, 20);
+            label16.TabIndex = 40;
+            label16.Text = "Not returned";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Location = new Point(28, 50);
+            label12.Name = "label12";
+            label12.Size = new Size(91, 20);
+            label12.TabIndex = 39;
+            label12.Text = "Total Books";
+            // 
             // panel9
             // 
             panel9.BackColor = Color.FromArgb(192, 255, 255);
@@ -199,6 +268,36 @@
             panel9.Name = "panel9";
             panel9.Size = new Size(138, 100);
             panel9.TabIndex = 35;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label24.Location = new Point(38, 14);
+            label24.Name = "label24";
+            label24.Size = new Size(61, 30);
+            label24.TabIndex = 42;
+            label24.Text = "1288";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label17.Location = new Point(38, 70);
+            label17.Name = "label17";
+            label17.Size = new Size(74, 20);
+            label17.TabIndex = 41;
+            label17.Text = "Returned";
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(27, 50);
+            label11.Name = "label11";
+            label11.Size = new Size(91, 20);
+            label11.TabIndex = 39;
+            label11.Text = "Total Books";
             // 
             // panel8
             // 
@@ -211,15 +310,35 @@
             panel8.Size = new Size(138, 100);
             panel8.TabIndex = 34;
             // 
-            // label12
+            // label23
             // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(28, 50);
-            label12.Name = "label12";
-            label12.Size = new Size(91, 20);
-            label12.TabIndex = 39;
-            label12.Text = "Total Books";
+            label23.AutoSize = true;
+            label23.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label23.Location = new Point(37, 13);
+            label23.Name = "label23";
+            label23.Size = new Size(61, 30);
+            label23.TabIndex = 42;
+            label23.Text = "1288";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label19.Location = new Point(38, 70);
+            label19.Name = "label19";
+            label19.Size = new Size(54, 20);
+            label19.TabIndex = 41;
+            label19.Text = "Issued";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label20.Location = new Point(25, 50);
+            label20.Name = "label20";
+            label20.Size = new Size(91, 20);
+            label20.TabIndex = 40;
+            label20.Text = "Total Books";
             // 
             // panel6
             // 
@@ -231,6 +350,16 @@
             panel6.Name = "panel6";
             panel6.Size = new Size(138, 100);
             panel6.TabIndex = 32;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.Location = new Point(38, 58);
+            label4.Name = "label4";
+            label4.Size = new Size(66, 20);
+            label4.TabIndex = 40;
+            label4.Text = "Authors";
             // 
             // label10
             // 
@@ -263,15 +392,35 @@
             panel4.Size = new Size(138, 100);
             panel4.TabIndex = 32;
             // 
-            // label11
+            // label22
             // 
-            label11.AutoSize = true;
-            label11.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(27, 50);
-            label11.Name = "label11";
-            label11.Size = new Size(91, 20);
-            label11.TabIndex = 39;
-            label11.Text = "Total Books";
+            label22.AutoSize = true;
+            label22.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label22.Location = new Point(35, 13);
+            label22.Name = "label22";
+            label22.Size = new Size(61, 30);
+            label22.TabIndex = 39;
+            label22.Text = "1288";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label21.Location = new Point(27, 70);
+            label21.Name = "label21";
+            label21.Size = new Size(69, 20);
+            label21.TabIndex = 41;
+            label21.Text = "Location";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label18.Location = new Point(23, 50);
+            label18.Name = "label18";
+            label18.Size = new Size(82, 20);
+            label18.TabIndex = 40;
+            label18.Text = "Total Aisle";
             // 
             // panel3
             // 
@@ -321,10 +470,8 @@
             panel2.Controls.Add(label5);
             panel2.Controls.Add(button9);
             panel2.Controls.Add(button8);
-            panel2.Controls.Add(button7);
             panel2.Controls.Add(button6);
             panel2.Controls.Add(button5);
-            panel2.Controls.Add(button4);
             panel2.Controls.Add(button1);
             panel2.Controls.Add(button2);
             panel2.Controls.Add(button3);
@@ -363,31 +510,19 @@
             button8.BackColor = SystemColors.Highlight;
             button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button8.ForeColor = SystemColors.ControlLightLight;
-            button8.Location = new Point(14, 232);
+            button8.Location = new Point(14, 170);
             button8.Name = "button8";
             button8.Size = new Size(110, 23);
             button8.TabIndex = 31;
             button8.Text = "MANAGE";
             button8.UseVisualStyleBackColor = false;
             // 
-            // button7
-            // 
-            button7.BackColor = SystemColors.Highlight;
-            button7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.ForeColor = SystemColors.ControlLightLight;
-            button7.Location = new Point(14, 201);
-            button7.Name = "button7";
-            button7.Size = new Size(110, 25);
-            button7.TabIndex = 30;
-            button7.Text = "STUDENT LOG";
-            button7.UseVisualStyleBackColor = false;
-            // 
             // button6
             // 
             button6.BackColor = SystemColors.Highlight;
             button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = SystemColors.ControlLightLight;
-            button6.Location = new Point(14, 170);
+            button6.Location = new Point(14, 139);
             button6.Name = "button6";
             button6.Size = new Size(110, 25);
             button6.TabIndex = 30;
@@ -399,24 +534,12 @@
             button5.BackColor = SystemColors.Highlight;
             button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = SystemColors.ControlLightLight;
-            button5.Location = new Point(14, 139);
+            button5.Location = new Point(14, 108);
             button5.Name = "button5";
             button5.Size = new Size(110, 25);
             button5.TabIndex = 30;
             button5.Text = "AISLE/LOCATION";
             button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            button4.BackColor = SystemColors.Highlight;
-            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = SystemColors.ControlLightLight;
-            button4.Location = new Point(14, 108);
-            button4.Name = "button4";
-            button4.Size = new Size(110, 25);
-            button4.TabIndex = 30;
-            button4.Text = "STUDENT";
-            button4.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -454,157 +577,6 @@
             button3.Text = "AUTHOR";
             button3.UseVisualStyleBackColor = false;
             // 
-            // panel7
-            // 
-            panel7.BackColor = Color.FromArgb(192, 255, 255);
-            panel7.Controls.Add(label15);
-            panel7.Controls.Add(label14);
-            panel7.Controls.Add(label13);
-            panel7.Location = new Point(475, 64);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(138, 100);
-            panel7.TabIndex = 38;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(38, 58);
-            label4.Name = "label4";
-            label4.Size = new Size(66, 20);
-            label4.TabIndex = 40;
-            label4.Text = "Authors";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(47, 49);
-            label13.Name = "label13";
-            label13.Size = new Size(53, 20);
-            label13.TabIndex = 41;
-            label13.Text = "No. of";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.Location = new Point(34, 69);
-            label14.Name = "label14";
-            label14.Size = new Size(71, 20);
-            label14.TabIndex = 42;
-            label14.Text = "Students";
-            // 
-            // label15
-            // 
-            label15.AutoSize = true;
-            label15.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label15.Location = new Point(39, 11);
-            label15.Name = "label15";
-            label15.Size = new Size(61, 30);
-            label15.TabIndex = 43;
-            label15.Text = "1288";
-            // 
-            // label16
-            // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label16.Location = new Point(28, 70);
-            label16.Name = "label16";
-            label16.Size = new Size(101, 20);
-            label16.TabIndex = 40;
-            label16.Text = "Not returned";
-            // 
-            // label17
-            // 
-            label17.AutoSize = true;
-            label17.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label17.Location = new Point(38, 70);
-            label17.Name = "label17";
-            label17.Size = new Size(74, 20);
-            label17.TabIndex = 41;
-            label17.Text = "Returned";
-            // 
-            // label18
-            // 
-            label18.AutoSize = true;
-            label18.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label18.Location = new Point(23, 50);
-            label18.Name = "label18";
-            label18.Size = new Size(82, 20);
-            label18.TabIndex = 40;
-            label18.Text = "Total Aisle";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label19.Location = new Point(38, 70);
-            label19.Name = "label19";
-            label19.Size = new Size(54, 20);
-            label19.TabIndex = 41;
-            label19.Text = "Issued";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label20.Location = new Point(25, 50);
-            label20.Name = "label20";
-            label20.Size = new Size(91, 20);
-            label20.TabIndex = 40;
-            label20.Text = "Total Books";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label21.Location = new Point(27, 70);
-            label21.Name = "label21";
-            label21.Size = new Size(69, 20);
-            label21.TabIndex = 41;
-            label21.Text = "Location";
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label22.Location = new Point(35, 13);
-            label22.Name = "label22";
-            label22.Size = new Size(61, 30);
-            label22.TabIndex = 39;
-            label22.Text = "1288";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label23.Location = new Point(37, 13);
-            label23.Name = "label23";
-            label23.Size = new Size(61, 30);
-            label23.TabIndex = 42;
-            label23.Text = "1288";
-            // 
-            // label24
-            // 
-            label24.AutoSize = true;
-            label24.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label24.Location = new Point(38, 14);
-            label24.Name = "label24";
-            label24.Size = new Size(61, 30);
-            label24.TabIndex = 42;
-            label24.Text = "1288";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label25.Location = new Point(39, 14);
-            label25.Name = "label25";
-            label25.Size = new Size(61, 30);
-            label25.TabIndex = 43;
-            label25.Text = "1288";
-            // 
             // AdminDashboard
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -625,6 +597,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
             panel5.ResumeLayout(false);
             panel5.PerformLayout();
             panel10.ResumeLayout(false);
@@ -641,8 +615,6 @@
             panel3.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            panel7.ResumeLayout(false);
-            panel7.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -655,12 +627,10 @@
         private Panel panel1;
         private Label label1;
         private Panel panel2;
-        private Button button4;
         private Button button3;
         private Button button2;
         private Button button1;
         private Button button8;
-        private Button button7;
         private Button button6;
         private Button button5;
         private Button button9;

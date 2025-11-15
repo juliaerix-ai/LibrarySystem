@@ -34,8 +34,6 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             openFileDialog1 = new OpenFileDialog();
-            pictureBox3 = new PictureBox();
-            button1 = new Button();
             panel1 = new Panel();
             textBox5 = new TextBox();
             textBox4 = new TextBox();
@@ -47,10 +45,11 @@
             label3 = new Label();
             label2 = new Label();
             button2 = new Button();
+            pictureBox3 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // pictureBox2
@@ -99,28 +98,6 @@
             // openFileDialog1
             // 
             openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
-            pictureBox3.Location = new Point(68, 148);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(179, 221);
-            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox3.TabIndex = 51;
-            pictureBox3.TabStop = false;
-            // 
-            // button1
-            // 
-            button1.BackColor = SystemColors.Highlight;
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(97, 375);
-            button1.Name = "button1";
-            button1.Size = new Size(126, 23);
-            button1.TabIndex = 52;
-            button1.Text = "Insert Image";
-            button1.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -178,7 +155,7 @@
             button3.Name = "button3";
             button3.Size = new Size(89, 35);
             button3.TabIndex = 25;
-            button3.Text = "ADD";
+            button3.Text = "Archive";
             button3.UseVisualStyleBackColor = false;
             // 
             // label4
@@ -246,6 +223,17 @@
             button2.TextAlign = ContentAlignment.TopCenter;
             button2.UseVisualStyleBackColor = true;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
+            pictureBox3.Location = new Point(68, 148);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(179, 221);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 51;
+            pictureBox3.TabStop = false;
+            // 
             // AdminManageArchive
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -254,7 +242,6 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(panel1);
-            Controls.Add(button1);
             Controls.Add(pictureBox3);
             Controls.Add(label1);
             Controls.Add(pictureBox2);
@@ -267,9 +254,9 @@
             Load += AdminManageArchive_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -281,8 +268,6 @@
         private PictureBox pictureBox1;
         private Label label1;
         private OpenFileDialog openFileDialog1;
-        private PictureBox pictureBox3;
-        private Button button1;
         private Panel panel1;
         private TextBox textBox5;
         private TextBox textBox4;
@@ -294,5 +279,6 @@
         private Label label3;
         private Label label2;
         private Button button2;
+        private PictureBox pictureBox3;
     }
 }

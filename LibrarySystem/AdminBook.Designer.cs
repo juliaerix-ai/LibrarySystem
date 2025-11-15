@@ -33,10 +33,8 @@
             label5 = new Label();
             button9 = new Button();
             button8 = new Button();
-            button7 = new Button();
             button6 = new Button();
             button5 = new Button();
-            button4 = new Button();
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -78,10 +76,8 @@
             panel2.Controls.Add(label5);
             panel2.Controls.Add(button9);
             panel2.Controls.Add(button8);
-            panel2.Controls.Add(button7);
             panel2.Controls.Add(button6);
             panel2.Controls.Add(button5);
-            panel2.Controls.Add(button4);
             panel2.Controls.Add(button1);
             panel2.Controls.Add(button2);
             panel2.Controls.Add(button3);
@@ -120,31 +116,19 @@
             button8.BackColor = SystemColors.Highlight;
             button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button8.ForeColor = SystemColors.ControlLightLight;
-            button8.Location = new Point(14, 232);
+            button8.Location = new Point(14, 170);
             button8.Name = "button8";
             button8.Size = new Size(110, 23);
             button8.TabIndex = 31;
             button8.Text = "MANAGE";
             button8.UseVisualStyleBackColor = false;
             // 
-            // button7
-            // 
-            button7.BackColor = SystemColors.Highlight;
-            button7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.ForeColor = SystemColors.ControlLightLight;
-            button7.Location = new Point(14, 201);
-            button7.Name = "button7";
-            button7.Size = new Size(110, 25);
-            button7.TabIndex = 30;
-            button7.Text = "STUDENT LOG";
-            button7.UseVisualStyleBackColor = false;
-            // 
             // button6
             // 
             button6.BackColor = SystemColors.Highlight;
             button6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button6.ForeColor = SystemColors.ControlLightLight;
-            button6.Location = new Point(14, 170);
+            button6.Location = new Point(14, 139);
             button6.Name = "button6";
             button6.Size = new Size(110, 25);
             button6.TabIndex = 30;
@@ -156,24 +140,12 @@
             button5.BackColor = SystemColors.Highlight;
             button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button5.ForeColor = SystemColors.ControlLightLight;
-            button5.Location = new Point(14, 139);
+            button5.Location = new Point(14, 108);
             button5.Name = "button5";
             button5.Size = new Size(110, 25);
             button5.TabIndex = 30;
             button5.Text = "AISLE/LOCATION";
             button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            button4.BackColor = SystemColors.Highlight;
-            button4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = SystemColors.ControlLightLight;
-            button4.Location = new Point(14, 108);
-            button4.Name = "button4";
-            button4.Size = new Size(110, 25);
-            button4.TabIndex = 30;
-            button4.Text = "STUDENT";
-            button4.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -426,10 +398,8 @@
         private Label label5;
         private Button button9;
         private Button button8;
-        private Button button7;
         private Button button6;
         private Button button5;
-        private Button button4;
         private Button button1;
         private Button button2;
         private Button button3;

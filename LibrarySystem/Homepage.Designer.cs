@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Homepage));
             panel1 = new Panel();
+            pictureBox12 = new PictureBox();
+            pictureBox11 = new PictureBox();
             pictureBox10 = new PictureBox();
             pictureBox9 = new PictureBox();
             pictureBox8 = new PictureBox();
@@ -50,9 +52,9 @@
             pictureBox1 = new PictureBox();
             textBox1 = new TextBox();
             pictureBox2 = new PictureBox();
-            pictureBox11 = new PictureBox();
-            pictureBox12 = new PictureBox();
             panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
@@ -64,8 +66,6 @@
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -88,6 +88,26 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(619, 348);
             panel1.TabIndex = 16;
+            // 
+            // pictureBox12
+            // 
+            pictureBox12.BackgroundImage = (Image)resources.GetObject("pictureBox12.BackgroundImage");
+            pictureBox12.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox12.Location = new Point(501, 213);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(101, 120);
+            pictureBox12.TabIndex = 11;
+            pictureBox12.TabStop = false;
+            // 
+            // pictureBox11
+            // 
+            pictureBox11.BackgroundImage = (Image)resources.GetObject("pictureBox11.BackgroundImage");
+            pictureBox11.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox11.Location = new Point(501, 42);
+            pictureBox11.Name = "pictureBox11";
+            pictureBox11.Size = new Size(101, 120);
+            pictureBox11.TabIndex = 10;
+            pictureBox11.TabStop = false;
             // 
             // pictureBox10
             // 
@@ -250,7 +270,7 @@
             button3.Name = "button3";
             button3.Size = new Size(101, 100);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "P";
             button3.TextAlign = ContentAlignment.TopCenter;
             button3.UseVisualStyleBackColor = false;
             // 
@@ -311,26 +331,6 @@
             pictureBox2.TabIndex = 24;
             pictureBox2.TabStop = false;
             // 
-            // pictureBox11
-            // 
-            pictureBox11.BackgroundImage = (Image)resources.GetObject("pictureBox11.BackgroundImage");
-            pictureBox11.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox11.Location = new Point(501, 42);
-            pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(101, 120);
-            pictureBox11.TabIndex = 10;
-            pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            pictureBox12.BackgroundImage = (Image)resources.GetObject("pictureBox12.BackgroundImage");
-            pictureBox12.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox12.Location = new Point(501, 213);
-            pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(101, 120);
-            pictureBox12.TabIndex = 11;
-            pictureBox12.TabStop = false;
-            // 
             // Homepage
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -349,6 +349,8 @@
             Load += Homepage_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
@@ -361,8 +363,6 @@
             panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
